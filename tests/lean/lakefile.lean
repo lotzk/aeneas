@@ -16,7 +16,10 @@ package «tests» {}
 @[default_target] lean_lib BaseTutorial
 @[default_target] lean_lib Bitwise
 @[default_target] lean_lib BlanketImpl
+@[default_target] lean_lib Bst
 @[default_target] lean_lib Builtin
+@[default_target] lean_lib BuiltinAuto
+@[default_target] lean_lib ChunksExact
 @[default_target] lean_lib Issue804ClosureReturnRef
 @[default_target] lean_lib Closures
 @[default_target] lean_lib ConstShadow
@@ -58,11 +61,13 @@ package «tests» {}
 @[default_target] lean_lib LoopsNestedRec
 @[default_target] lean_lib LoopsSequences
 @[default_target] lean_lib MiniTree
+@[default_target] lean_lib MultiTarget
 @[default_target] lean_lib MutBorrowInSharedBorrow
 @[default_target] lean_lib Names
 @[default_target] lean_lib NestedBorrows
 @[default_target] lean_lib NoNestedBorrows
 @[default_target] lean_lib Options
+@[default_target] lean_lib OverflowingOps
 @[default_target] lean_lib Order
 @[default_target] lean_lib Paper
 @[default_target] lean_lib PoloniusList
